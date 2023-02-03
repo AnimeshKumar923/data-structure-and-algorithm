@@ -1,3 +1,10 @@
+/*
+Author: Animesh Kumar
+Date: 03/02/2023 (DD/MM/YYYY)
+Purpose: Learning Java syntax and some conditional statements
+Status: Done the first assignment
+*/
+
 package assignment;
 
 import java.util.Scanner;
@@ -25,3 +32,4 @@ public class Question01 {
 
     }
 }
+//trying to understand the folder system also
