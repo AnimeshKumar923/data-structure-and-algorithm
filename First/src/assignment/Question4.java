@@ -2,7 +2,7 @@
 Author: Animesh Kumar
 Date: 03/02/2023 (DD/MM/YYYY)
 Purpose: Learning Java syntax and some conditional statements
-Status: Stuck in the question.
+Status: Doubt in the question.
 Question: Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 */
 
@@ -23,7 +23,7 @@ public class Question4 {
         float ans = 0;
 
         System.out.print("Enter the operation you want to perform: ");
-        char operand = input.next().charAt(0);
+        char operand = input.next().charAt(0); // what is this? I just copied it from GFG website...
 
         if (operand == '+'){
             ans = num1 + num2;
