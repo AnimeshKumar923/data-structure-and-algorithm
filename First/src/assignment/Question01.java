@@ -3,6 +3,7 @@ Author: Animesh Kumar
 Date: 03/02/2023 (DD/MM/YYYY)
 Purpose: Learning Java syntax and some conditional statements
 Status: Done the first assignment
+Question: Write a program to print whether a number is even or odd, also take input from the user.
 */
 
 package assignment;
