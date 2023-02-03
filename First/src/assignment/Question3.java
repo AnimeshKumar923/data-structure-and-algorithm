@@ -2,7 +2,7 @@
 Author: Animesh Kumar
 Date: 03/02/2023 (DD/MM/YYYY)
 Purpose: Learning Java syntax and some conditional statements
-Status: Done the second question.
+Status: Done the third question.
 Question: Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 */
 
