@@ -10,7 +10,7 @@ package assignment;
 
 import java.util.Scanner;
 
-public class Question3 {
+public class Question03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ public class Question3 {
         System.out.print("Enter time (in years): ");
         float time = input.nextFloat();
 
-        float si = (principle*rate*time)/100;
+        float si = (principle * rate * time) / 100;
 
         System.out.println("The simple interest calculated is: " + si);
     }
