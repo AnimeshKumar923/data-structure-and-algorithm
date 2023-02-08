@@ -15,7 +15,7 @@ public class Question22 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int num=input.nextInt();
+        int n=input.nextInt();
 
         while(n>0){
             int count=0;
