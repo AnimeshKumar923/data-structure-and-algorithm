@@ -22,10 +22,12 @@ public class Question22 {
             int divisor=1;
 
             int factor=n%divisor;
-            divisor++;
+            
             if(factor==0){
                 System.out.print(divisor+" ");
                 count++;
+                divisor++;
+                n=n/divisor;
             }
         }
     }
