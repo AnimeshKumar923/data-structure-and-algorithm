@@ -8,9 +8,9 @@ public class Sum {
          * 
          * syntax of method
          * 
-         * access-modifier(static, here) return_type name(){
+         * access-modifier(static, here) return_type name(arguments){
          * //body
-         * return statement;
+         * return statement; // statement-type and return_type has to be same
          * }
          * 
          */
