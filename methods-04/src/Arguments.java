@@ -15,7 +15,7 @@ public class Arguments {
         System.out.println("Sum = " + c);
     }
 
-    static int sum(int first, int second) {
+    static int sum(int first, int second) { // first and second are parameter of the function
         int sum = 0;
         sum = first + second;
         return sum;
