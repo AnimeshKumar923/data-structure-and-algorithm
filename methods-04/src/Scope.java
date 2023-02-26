@@ -7,7 +7,8 @@ public class Scope {
         int a = 10;
         int b = 40;
 
-        // System.out.println(marks); // you cannot access this variable(marks) since it
+        // System.out.println(marks); // you cannot access this variable "marks" since
+        // it
         // is not inside this function, even if it is in the parameter of another
         // function.
     }
@@ -18,7 +19,7 @@ public class Scope {
     // you cannot access a variable from function 1 in function 2.
 
     static void random(int marks) {
-        // System.out.println(a); // you cannot access this variable(a) since it is not
+        // System.out.println(a); // you cannot access this variable "a" since it is not
         // inside this function.
     }
 }
