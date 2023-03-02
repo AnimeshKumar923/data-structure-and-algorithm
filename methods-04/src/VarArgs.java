@@ -17,3 +17,8 @@ public class VarArgs {
         System.out.println(Arrays.toString(v));
     }
 }
+
+// syntax for Variable Argument Length
+/*
+ * static void function_name(data_type ...variableName)
+ */
