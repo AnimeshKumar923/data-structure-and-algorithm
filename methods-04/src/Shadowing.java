@@ -5,7 +5,7 @@ public class Shadowing {
         System.out.println(x); // 90
         int x; // the class variable at line 2 is shadowed by this
 
-        // System.out.println(x); // scope wil being when value is initialized
+        // System.out.println(x); // scope wil begin when value is initialized
 
         x = 40;
 
