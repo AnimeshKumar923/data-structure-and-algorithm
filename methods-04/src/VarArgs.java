@@ -18,7 +18,10 @@ public class VarArgs {
     }
 }
 
-// syntax for Variable Argument Length
 /*
+ * syntax for Variable Argument Length
+ * 
  * static void function_name(data_type ...variableName)
+ * 
+ * internally '...variableName' it takes as array of the given data-type.
  */
