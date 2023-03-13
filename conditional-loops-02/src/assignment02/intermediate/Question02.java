@@ -21,25 +21,31 @@ public class Question02 {
         int time, watt;
         int month = 30;
         float unit = 0;
-        int arr[] = new int[appliances];
+        float total_unit = 0;
+        float arr[] = new float[appliances];
 
         for (int i = 0; i < appliances; i++) {
-            System.out.println("Enter name of appliance: ");
-            name = in.next();
-            System.out.println("Enter wattage of " + name + ": ");
+            // System.out.println("Enter name of appliance: ");
+            // name = in.next();
+            System.out.println("Enter wattage of: ");
             watt = in.nextInt();
             System.out.println("Enter total time the appliance is used (in hrs): ");
             time = in.nextInt();
             System.out.println("days in a month is assumed to be 30");
 
             unit = (watt * time * month) / 1000;
-
-            System.out.println("Total unit= " + unit);
+            arr[i] = unit;
 
         }
+        for (int i = 0; i < appliances - 1; i++) {
+            total_unit = arr[i] + arr[i + 1];
+            System.out.println("Total unit= " + total_unit);
+
+        } // this block needs work...
+
         System.out.println("Enter rate of one unit: ");
         float per_unit = in.nextInt();
-        float total_bill = unit * per_unit;
+        float total_bill = total_unit * per_unit;
         System.out.println("Total bill= " + total_bill);
 
     }
