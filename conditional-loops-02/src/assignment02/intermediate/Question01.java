@@ -16,8 +16,8 @@ public class Question01 {
 
         System.out.println("Enter number to find factorial: ");
         int num = in.nextInt();
-        int res = fact(num);
-        System.out.println(res);
+        int result = fact(num);
+        System.out.println(result);
     }
 
     static int fact(int num) {
