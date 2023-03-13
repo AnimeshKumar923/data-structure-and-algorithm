@@ -2,7 +2,7 @@
 Author: Animesh Kumar
 Date: 13/03/2023 (DD/MM/YYYY)
 Purpose: Learning conditionals and loops
-Status: In progress...
+Status: Completed Successfully
 Question: Calculate Electricity Bill
 */
 
@@ -22,26 +22,20 @@ public class Question02 {
         int month = 30;
         float unit = 0;
         float total_unit = 0;
-        float arr[] = new float[appliances];
 
         for (int i = 0; i < appliances; i++) {
-            // System.out.println("Enter name of appliance: ");
-            // name = in.next();
-            System.out.println("Enter wattage of: ");
+            System.out.println("Enter name of appliance: ");
+            name = in.next();
+            System.out.println("Enter wattage of " + name + ": ");
             watt = in.nextInt();
             System.out.println("Enter total time the appliance is used (in hrs): ");
             time = in.nextInt();
             System.out.println("days in a month is assumed to be 30");
 
             unit = (watt * time * month) / 1000;
-            arr[i] = unit;
+            total_unit = total_unit + unit;
 
         }
-        for (int i = 0; i < appliances - 1; i++) {
-            total_unit = arr[i] + arr[i + 1];
-            System.out.println("Total unit= " + total_unit);
-
-        } // this block needs work...
 
         System.out.println("Enter rate of one unit: ");
         float per_unit = in.nextInt();
