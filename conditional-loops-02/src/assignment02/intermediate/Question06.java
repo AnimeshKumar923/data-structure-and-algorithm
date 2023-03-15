@@ -1,3 +1,11 @@
+/*
+Author: Animesh Kumar
+Date: 15/03/2023 (DD/MM/YYYY)
+Purpose: Learning conditionals and loops
+Status: Completed Successfully
+Question: Calculate Commission Percentage
+*/
+
 package assignment02.intermediate;
 
 import java.util.Scanner;
