@@ -2,7 +2,7 @@
 Author: Animesh Kumar
 Date: 15/03/2023 (DD/MM/YYYY)
 Purpose: Learning conditionals and loops
-Status: In progress...
+Status: Completed Successfully
 Question: Calculate Discount Of Product
 */
 
