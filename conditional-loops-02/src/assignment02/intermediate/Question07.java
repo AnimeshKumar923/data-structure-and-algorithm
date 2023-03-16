@@ -15,11 +15,11 @@ public class Question07 {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter number to find the power of: ");
-        int num = in.nextInt();
+        double num = in.nextDouble();
 
         System.out.print("Enter the power to be raised: ");
-        int power = in.nextInt();
-        int sum = 1, result = 1;
+        double power = in.nextDouble();
+        double sum = 1, result = 1;
 
         for (int i = 0; i < power; i++) {
             if (power == 0) {
@@ -36,6 +36,9 @@ public class Question07 {
 
             result = result * num;
         }
-        System.out.println("Ans= " + result);
+        if (power != 1) {
+            System.out.println("Ans= " + result);
+        }
+
     }
 }
