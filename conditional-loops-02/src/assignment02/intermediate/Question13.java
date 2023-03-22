@@ -1,6 +1,6 @@
 /*
 Author: Animesh Kumar
-Date: 16/03/2023 (DD/MM/YYYY)
+Date: 22/03/2023 (DD/MM/YYYY)
 Purpose: Learning conditionals and loops
 Status: Completed Successfully
 Question: Sum Of N Numbers
