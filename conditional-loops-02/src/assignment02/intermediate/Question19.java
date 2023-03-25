@@ -19,10 +19,9 @@ public class Question19 {
         int num2 = in.nextInt();
 
         boolean res = comparison(num1, num2);
-        int rem = 0;
+        int rem = 1;
 
         // System.out.println("Result= " + res);
-        int hcf;
 
         rem = calcRem(num1, num2, res, rem);
 
@@ -35,8 +34,15 @@ public class Question19 {
                 rem = calcRem(num1, num2, res, rem);
 
             } else if (rem == 0) {
-                hcf = num2;
-                System.out.println("HCF= " + hcf);
+                boolean check = comparison(num1, num2);
+                if (check == false) {
+                    int hcf = num1;
+                    System.out.println("HCF= " + hcf);
+                } else {
+                    int hcf = num2;
+                    System.out.println("HCF= " + hcf);
+                }
+                // System.out.println("HCF= " + hcf);
                 break;
             }
         }
