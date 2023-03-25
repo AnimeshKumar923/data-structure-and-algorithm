@@ -29,8 +29,15 @@ public class Question19 {
 
         while (rem >= 0) {
             if (rem > 0) {
+                int tmp;
+                if (num1 > num2) {
+                    tmp = num2;
+                } else {
+                    tmp = num1;
+                }
                 num1 = rem;
-                num2 = num1;
+                num2 = tmp;
+                res = comparison(num1, num2);
                 rem = calcRem(num1, num2, res, rem);
 
             } else if (rem == 0) {
