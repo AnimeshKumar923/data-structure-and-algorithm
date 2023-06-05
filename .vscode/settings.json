@@ -3,5 +3,8 @@
     "cSpell.words": [
         "Animesh",
         "Kumar"
+    ],
+    "java.project.sourcePaths": [
+        "."
     ]
 }
