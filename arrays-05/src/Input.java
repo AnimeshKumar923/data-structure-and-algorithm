@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -23,9 +24,11 @@ public class Input {
         // }
         // System.out.print("]");
 
-        for (int num : arr) {
-            System.out.print(num + " ");
+        // for (int num : arr) { // for every elements in array, print the element
+        // System.out.print(num + " "); // here num represents element of the array.
 
-        }
+        // }
+
+        System.out.println(Arrays.toString(arr)); // displays the elements in brackets and commas.
     }
 }
