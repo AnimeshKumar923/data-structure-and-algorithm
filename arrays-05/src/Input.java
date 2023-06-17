@@ -22,8 +22,9 @@ public class Input {
 
         // System.out.print(arr[i] + ",");
         // }
-        // System.out.print("]");
+        // System.out.print(']');
 
+        // Enhanced for loop
         // for (int num : arr) { // for every elements in array, print the element
         // System.out.print(num + " "); // here num represents element of the array.
 
