@@ -17,11 +17,14 @@ public class Swap {
 
         System.out.println("Elements before swap: " + Arrays.toString(arr));
 
-        System.out.println("Enter elements position to interchange: ");
-        int element1 = in.nextInt();
-        int element2 = in.nextInt();
-        swap(arr, element1 - 1, element2 - 1);
+        // System.out.println("Enter elements position to interchange: ");
+        // int element1 = in.nextInt();
+        // int element2 = in.nextInt();
+        // swap(arr, element1 - 1, element2 - 1);
 
+        // System.out.println(Arrays.toString(arr));
+
+        reverseArray(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -29,5 +32,17 @@ public class Swap {
         int temp = arr[index1];
         arr[index1] = arr[index2];
         arr[index2] = temp;
+    }
+
+    static void reverseArray(int[] arr) { // understand the logic used here clearly...
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            // swap
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
     }
 }
