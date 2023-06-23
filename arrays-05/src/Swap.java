@@ -34,6 +34,8 @@ public class Swap {
         arr[index2] = temp;
     }
 
+    // REVERSING AN ARRAY
+
     static void reverseArray(int[] arr) { // understand the logic used here clearly...
         int start = 0;
         int end = arr.length - 1;
