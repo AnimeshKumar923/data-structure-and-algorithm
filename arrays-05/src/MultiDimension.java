@@ -33,7 +33,7 @@ public class MultiDimension {
         // System.out.println(arr.length); // testing "arr.length" argument. It gives
         // the size of the array. 'OR' it gives the column size of the array.
 
-        // System.out.println(arr[2].length); // the "arr[N].length"(X being a number)
+        // System.out.println(arr[2].length); // the "arr[N].length"(N being a number)
         // argument gives the size of child
         // array which is present at Nth index inside a parent array.
 
