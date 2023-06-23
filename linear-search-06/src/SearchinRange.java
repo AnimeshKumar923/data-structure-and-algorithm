@@ -19,6 +19,7 @@ public class SearchinRange {
         // }
 
         // System.out.println("Elements in array: " + Arrays.toString(arr));
+        //
 
         while (true) {
 
@@ -62,6 +63,11 @@ public class SearchinRange {
 
         }
     }
+
+    /*
+     * - Can add more edge cases like, 'what if user enters ranges that goes out of
+     * bound for the array taken by user'
+     */
 
     public static void inputArray() {
         Scanner in = new Scanner(System.in);
