@@ -5,7 +5,7 @@ public class BinarySearch {
         int target = 45;
         int ans = binarySearch(arr, target);
         System.out.println(ans);
-        System.out.println(arr.length);
+        // System.out.println(arr.length);
     }
 
     // return the index
