@@ -58,6 +58,28 @@ public class LL {
         size++;
     }
 
+    // this get function gives reference to the just previous index of the target index
+    public Node get(int index){
+        Node node=head;
+        for (int i = 0; i < index; i++) {
+            node=node.next;
+        }
+        return node;
+    }
+
+    public void deleteLast(){
+        if(size<=1){
+            deleteFirst();
+        }
+
+        Node secondLast=get(size-2);
+        int val=tail.value;
+        tail=secondLast;
+        tail.next=null;
+        size--;
+        System.out.println("The deleted time is: "+val);
+    }
+
     public void deleteFirst(){
         int val=head.value;
         head=head.next;
@@ -72,7 +94,7 @@ public class LL {
         Node temp=head;
 
         while(temp!=null){
-            System.out.print(temp.value+" --> ");
+            System.out.print(temp.value+" -> ");
             temp=temp.next;
         }
         System.out.println("END");
