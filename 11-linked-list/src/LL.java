@@ -58,6 +58,16 @@ public class LL {
         size++;
     }
 
+    public void deleteFirst(){
+        int val=head.value;
+        head=head.next;
+        if(head==null){
+            tail=null;
+        }
+        size--;
+        System.out.println("The deleted time is: "+val);
+    }
+
     public void display(){
         Node temp=head;
 
