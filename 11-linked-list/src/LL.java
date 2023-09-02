@@ -77,7 +77,7 @@ public class LL {
         tail=secondLast;
         tail.next=null;
         size--;
-        System.out.println("The deleted time is: "+val);
+        System.out.println("The deleted item is: "+val);
     }
 
     public void deleteFirst(){
@@ -87,7 +87,23 @@ public class LL {
             tail=null;
         }
         size--;
-        System.out.println("The deleted time is: "+val);
+        System.out.println("The deleted item is: "+val);
+    }
+
+    public void delete(int index){
+        if(index==0){
+            deleteFirst();
+        }
+        
+        if(index==size-1){
+            deleteLast();
+        }
+        
+        Node prev=get(index-1);
+        int val=prev.next.value;
+        prev.next=prev.next.next;
+        size--;
+        System.out.println("The deleted item is: "+val);
     }
 
     public void display(){
