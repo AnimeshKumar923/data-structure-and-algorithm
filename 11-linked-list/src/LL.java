@@ -58,13 +58,28 @@ public class LL {
         size++;
     }
 
-    // this get function gives reference to the just previous index of the target index
-    public Node get(int index){
+    public Node get(int index){    
+        // this get function gives reference to the just previous index of the target index
+
         Node node=head;
         for (int i = 0; i < index; i++) {
             node=node.next;
         }
         return node;
+    }
+
+
+    public Node findElement(int value){   
+        // this function returns the index where the value is found 
+
+        Node node=head;
+        while(node!=null){
+            if(node.value==value){
+                return node;
+            }
+            node=node.next;
+        }
+        return null;
     }
 
     public void deleteLast(){
@@ -91,6 +106,9 @@ public class LL {
     }
 
     public void delete(int index){
+        // this function deletes element from any given index
+
+
         if(index==0){
             deleteFirst();
         }
