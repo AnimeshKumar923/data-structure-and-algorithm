@@ -105,7 +105,7 @@ public class LL {
         System.out.println("The deleted item is: "+val);
     }
 
-    public void delete(int index){
+    public void delete(int index){  
         // this function deletes element from any given index
 
 

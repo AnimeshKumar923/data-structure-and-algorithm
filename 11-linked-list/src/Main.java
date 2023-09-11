@@ -20,13 +20,15 @@ public class Main {
         // list.delete(1);
         // list.display();
 
-        DLL list=new DLL();
+        DLL listdll=new DLL();
 
-        list.insertFirst(87);
-        list.insertFirst(65);
-        list.insertFirst(7);
-        list.insertFirst(20);
+        listdll.insertFirst(87);
+        listdll.insertFirst(65);
+        listdll.insertFirst(7);
+        listdll.insertFirst(20);
 
-        list.display();
+        listdll.insertLastWithoutTail(587);
+
+        listdll.display();
     }
 }
