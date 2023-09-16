@@ -49,7 +49,37 @@ public class DLL {
         node.prev=last;
     }
 
+    public Node findElement(int value){   
+        // this function returns the index where the value is found 
 
+        Node node=head;
+        while(node!=null){
+            if(node.value==value){
+                return node;
+            }
+            node=node.next;
+        }
+        return null;
+    }
+
+    public void insert(int after, int value){
+
+        Node p=findElement(after);
+        
+        if(p==null){
+            System.out.println("does not exist! ");
+            return;
+        }
+
+        Node node=new Node(value);
+        node.next=p.next;
+        p.next=node;
+        node.prev=p;
+
+        if(node.next!=null){
+            node.next.prev=node;
+        }
+    }
 
     public void display(){
         Node node=head;

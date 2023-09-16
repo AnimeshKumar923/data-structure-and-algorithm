@@ -29,6 +29,8 @@ public class Main {
 
         listdll.insertLastWithoutTail(587);
 
+        listdll.insert(65, 254);
+
         listdll.display();
     }
 }
