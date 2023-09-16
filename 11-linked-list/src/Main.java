@@ -53,5 +53,8 @@ public class Main {
         listcll.insert(8);
 
         listcll.display();
+
+        listcll.delete(20);
+        listcll.display();
     }
 }
